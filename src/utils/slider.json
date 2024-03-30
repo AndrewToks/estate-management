@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Duplex",
+        "image": "./akari.jpg",
+        "price" : "200m",
+        "detail" : "Ademulegun avenue off Godwin street"
+    },
+    {
+        "name" : "Duplex",
+        "image": "./image.jpg",
+        "price" : "25M",
+        "detail" : "Akinjagunla,Mega School Area, Ondo State.",
+        "description":"This house contains 3 bedrooms at the front and 4 bedrooms at the back"
+    },
+    {
+        "name" : "Duplex",
+        "image": "./Arigbabola.png",
+        "price" : "40M",
+        "detail" : "Arigbabola, Ondo State.",
+        "description":"It contains 4 flats."
+    }
+]
