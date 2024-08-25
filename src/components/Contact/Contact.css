@@ -5,8 +5,8 @@
     align-items: center;
 }
 .contactModes{
-    margin-top: 2rem;
     gap: 1rem;
+    top: 1.5rem;
 }
 .contactModes .row{
     gap: 1.5rem;
@@ -35,6 +35,13 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
+.callEl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
 .mode:hover{
     scale: 1.1;
     box-shadow: var(--shadow);
@@ -44,14 +51,14 @@
     color: #fff;
     scale: 0.8;
 }
-.image-container{
+/* .image-container{
     height: 25rem;
     width: 20rem;
 }
 .image-container>img{
     width: 100%;
     height: 100%;
-}
+} */
 @media(max-width:640px){
     .flexCenter {
         display: flex;
@@ -66,7 +73,9 @@
         align-items: center;
         flex-direction: column;
       }
-      .flexColStart{
+    .contactModes{
+        position: relative;
+
         margin: auto;
-      }
+    }
 }

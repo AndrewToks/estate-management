@@ -6,40 +6,43 @@ import { sliderSettings } from '../../utils/common';
 import data from '../../utils/slider.json'
 const Residencies = () => {
   return ( 
-    <section className='r-wrapper'>
-        <div className="paddings innerWidth r-container">
-            <div className="r-head flexColStart">
-                <span className='orangeText'>Best choices </span>
-                <span className='primaryText'>Popular Residencies</span>
-            </div>  
+    <section className='r-container'>
+  <div className="paddings innerWidth">
+  <div className="r-head flexColStart">
+  <span className='orangeText'>Best choices </span>
+  <span className='primaryText'>Available Residencies</span>
+  </div>  
 
-            <Swiper {...sliderSettings}>
-              <SliderButtons />
-              {
-                data.map((card, i) => (
+  <Swiper {...sliderSettings}>
+  <SliderButtons />
+  {
+   data.map((card, i) => (
             
-                    <SwiperSlide key = {i}>
-                      <div className="r-card">
-                        <img src={card.image} alt="home" />
-                        <div className="r-description">
-                        <span className='secondaryText r-price'>
-                          <span style={{color:"orange"}}>$</span>
-                          <span>{card.price}</span>
-                        </span>
-                        <span className='primaryText'>{card.name}</span>
-                        <span className='secondaryText'>{card.detail}</span>
-                        <span className="secondaryText">{card.description}</span>
-                        </div>
+   <SwiperSlide key = {i}>
+    <div className="r-card">
+    <img src={card.image} alt="home" />
+    <div className="r-description">
+    <span className='secondaryText r-price'>
+    <span style={{color:"orange",fontSize:"20px"}}>₦</span>
+    <span style={{fontSize:"20px"}}>{card.price}</span>
+    </span>
+
+    <span className='textEl'>
+    <span className='locationEl'><span className='locationText'>Location: </span>{card.detail}</span>
+    <span className="descriptionEl"><span className='descriptionText'>Description: </span>{card.description}</span>
+    </span>
+    
+    </div>
                       
-                      </div>
+  </div>
 
-                    </SwiperSlide>
+  </SwiperSlide>
 
-                ))
-              }
-            </Swiper>
+  ))
+   }
+  </Swiper>
             
-        </div>
+</div>
     </section >
   )
 }

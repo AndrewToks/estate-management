@@ -3,13 +3,13 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Best interest rates",
     detail:
       "We provide the best interest rates",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices in the market",
+    heading: "Prevent unstable prices",
     detail:
       "The price at which we sell our products is a stable price",
   },

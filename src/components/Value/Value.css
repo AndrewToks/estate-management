@@ -46,8 +46,14 @@
     }
     
 @media(max-width:768px){
+   
     .accordionButton .primaryText{
-        font-size: 0.8rem  ;
+        font-size: 0.9rem  ;
+    }
+    .accordion{
+        margin: auto;
+        position: relative;
+        top: 1rem;
     }
 }
 }

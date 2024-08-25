@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './components/Header/Header'
+// import Header from './components/Header/Header'
 import Hero from './components/Hero'
 import './App.css'
 import Footer from './components/Footer/Footer'
@@ -13,11 +13,11 @@ function App(){
         <div className='App'>
             <div>
         <div className="white-gradient" />
-            <Header />
+            {/* <Header /> */}
              <Hero />  
         </div>
              <Residencies />
-             <Value />
+             <Value /> 
              <Contact />
              <GetStarted />
              <Footer />
