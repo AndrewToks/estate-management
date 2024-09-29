@@ -7,16 +7,16 @@ const GetStarted = () => {
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
           <span className='primaryText'>
-            Get Started with Alpha
+            Get Started with Busayomi
             </span>
             <span className='secondaryText'>
               Subscribe and find super attractive price 
-              quotes from Alpha.
+              quotes from Busayomi.
               <br />
               Find your residence soon.
               </span>
               <button className='button'>
-                <a href="mailto:alphabest83@gmail.com">
+                <a href="mailto:adetokunboandrew2@gmail.com">
                   Get Started
                 </a>
               </button>

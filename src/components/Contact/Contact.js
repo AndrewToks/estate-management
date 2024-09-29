@@ -19,8 +19,8 @@ const Contact = () => {
                   <MdCall size={25} />
                 </div>
                 <div className="callEl detail">
-                  <span className='primaryText'>Call</span>
-                  <span className='secondaryText'>070 3116 0057</span>
+                <span className='primaryText'>Call</span>
+                  <span className='secondaryText'>07048222080</span>
                 </div>
               </div>
               <div className="flexCenter button">
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
                 <div className="callEl detail">
                   <span className='primaryText'>Facebook</span>
-                  <span className='secondaryText'>Akinnubi Adebayo</span>
+                  <span className='secondaryText'>Adetokunbo Andrew</span>
                 </div>
               </div>
               <div className="flexCenter button">
@@ -61,7 +61,7 @@ const Contact = () => {
                 <div className="callEl detail">
                   <span className='primaryText'>Video Call</span>
                   <span className='secondaryText'>
-                   070 3116 0057</span>
+                   07048222080</span>
                 </div>
               </div>
               <div className="flexCenter button">
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div className="callEl detail">
                   <span className='primaryText'>WhatsApp</span>
-                  <span className='secondaryText'>070 3116 0057</span>
+                  <span className='secondaryText'>07048222080</span>
                 </div>
               </div>
               <div className="flexCenter button">
