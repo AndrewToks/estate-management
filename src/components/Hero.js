@@ -30,7 +30,7 @@ const Hero = () => {
 
 <div className=" flexCenter hero-right">
    <div className=" image-container">
-    <img src="./Capture.png" alt="home"  />
+    <img src="./Capture.PNG" alt="home"  />
    </div>
    
 </div>
